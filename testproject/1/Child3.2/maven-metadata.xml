@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>testproject.1</groupId>
-  <artifactId>Modul2</artifactId>
+  <artifactId>Child3.2</artifactId>
   <versioning>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20171019190208</lastUpdated>
+    <lastUpdated>20171019190243</lastUpdated>
   </versioning>
 </metadata>
