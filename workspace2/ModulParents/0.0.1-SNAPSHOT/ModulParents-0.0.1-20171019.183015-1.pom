@@ -17,7 +17,7 @@
 	</repository>
 	  	<snapshotRepository>
 	  		<id>ModulParents</id>
-	  		<url>file://${project.build.directory}/staging</url>
+	  		<url>file://${project.build.directory}/project2</url>
 	  	</snapshotRepository>
   </distributionManagement>
   
@@ -39,7 +39,7 @@
 		   <artifactId>site-maven-plugin</artifactId>
 		   <version>0.12</version>
 			   <configuration>
-			   		<outputDirectory>${project.build.directory}/staging/</outputDirectory>
+			   		<outputDirectory>${project.build.directory}/project2/</outputDirectory>
 				   <includes>
 					   <include>**/*</include>
 				   </includes>
