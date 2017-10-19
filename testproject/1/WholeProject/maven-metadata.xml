@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>workspace2</groupId>
-  <artifactId>ModulParents</artifactId>
+  <groupId>testproject.1</groupId>
+  <artifactId>WholeProject</artifactId>
   <versioning>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20171019183954</lastUpdated>
+    <lastUpdated>20171019190134</lastUpdated>
   </versioning>
 </metadata>

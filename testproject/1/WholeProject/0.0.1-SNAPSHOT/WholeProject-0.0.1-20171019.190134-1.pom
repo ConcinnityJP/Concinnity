@@ -1,15 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>workspace2</groupId>
-  <artifactId>ModulParents</artifactId>
+  <groupId>testproject.1</groupId>
+  <artifactId>WholeProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-  	<module>../Child1</module>
-  	<module>../Child2</module>
+  	<module>../Modul1</module>
+  	<module>../Modul2</module>
   </modules>
-   
-   
+  
+  
 	<distributionManagement>
 	<repository>
 		<id>Concinnity.repository</id>
@@ -21,40 +21,19 @@
 	  	</snapshotRepository>
   </distributionManagement>
   
+  
+  
    
      <properties>
    	<github.global.server>github</github.global.server>
    </properties>
   
+  
+  
+  
      <build>
 	   <plugins>
-	   
-	   <plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-dependency-plugin</artifactId>
-              <executions>
-                <execution>             
-                  <id>copy-artifact</id>
-                  <phase>package</phase>
-                  <goals>
-                    <goal>copy</goal>
-                  </goals>
-                  <configuration>
-                    <artifactItems>
-                        <artifactItem>
-                          <groupId>${project.groupId}</groupId>
-                          <artifactId>${project.artifactId}</artifactId>
-                          <version>${project.version}</version>
-                          <type>${project.packaging}</type>
-                        </artifactItem>
-                    </artifactItems>
-                    <outputDirectory>../content</outputDirectory>
-                  </configuration>
-                </execution>
-              </executions>
-            </plugin>
-	   
-	   
+
 		   <plugin>
 			<groupId>com.github.github</groupId>
 		   <artifactId>site-maven-plugin</artifactId>
@@ -81,5 +60,6 @@
 		   </plugin>
 	   </plugins>
    </build>
-   
+  
+  
 </project>

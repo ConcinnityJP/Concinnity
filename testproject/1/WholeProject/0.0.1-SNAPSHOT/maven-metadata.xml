@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
-  <groupId>workspace2</groupId>
-  <artifactId>ModulParents</artifactId>
+  <groupId>testproject.1</groupId>
+  <artifactId>WholeProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20171019.183954</timestamp>
+      <timestamp>20171019.190134</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20171019183954</lastUpdated>
+    <lastUpdated>20171019190134</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-20171019.183954-1</value>
-        <updated>20171019183954</updated>
+        <value>0.0.1-20171019.190134-1</value>
+        <updated>20171019190134</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
